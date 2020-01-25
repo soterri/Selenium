@@ -67,7 +67,7 @@ package com.utils;
 				Alert alert = driver.switchTo().alert();
 				alert.dismiss();
 			} catch (NoAlertPresentException e) {
-				System.out.println("Alert is not prresent");
+				System.out.println("Alert is not present");
 			}
 		}
 
@@ -165,6 +165,8 @@ package com.utils;
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0, -" + pixel + ")");
 		}
+		
+		
 
 //		public static WebDriver setUp(String browser){
 //			
