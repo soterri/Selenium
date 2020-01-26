@@ -11,7 +11,7 @@ public class XpathDemo {
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("http://166.62.36.207/humanresources/symfony/web/index.php/auth/login\\\\n");
+		driver.get("http://166.62.36.207/Syntax_HRM/symfony/web/index.php/auth/login");
 		//relative xpath
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Admin");
 		

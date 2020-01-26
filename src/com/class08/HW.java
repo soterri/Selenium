@@ -10,9 +10,9 @@ public class HW extends CommonMethods {
 	
 	public static void main (String[] argd) {
 		
-		setUp("chrome", "http://166.62.36.207/humanresources/symfony/web/index.php/auth");
-		driver.findElement(By.id("txtUsername")).sendKeys("Syntax");
-		driver.findElement(By.id("txtPassword")).sendKeys("Syntax123!");
+		setUp("chrome", "http://166.62.36.207/Syntax_HRM/symfony/web/index.php/auth");
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("Syntax@123");
 		driver.findElement(By.id("btnLogin")).submit();
 		
 		WebDriverWait wait=new WebDriverWait(driver, 30);

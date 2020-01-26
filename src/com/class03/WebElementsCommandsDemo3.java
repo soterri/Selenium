@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebElementsCommandsDemo3 {
 		
-		public static final String URL="http://166.62.36.207/humanresources/symfony/web/index.php/auth/login";
+		public static final String URL="http://166.62.36.207/Syntax_HRM/symfony/web/index.php/auth/login";
 
 		public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ public class WebElementsCommandsDemo3 {
 			System.out.println(userN);
 			
 			//Sending password to password field
-			driver.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("Hum@nhrm123");
+			driver.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("Syntax@123");
 			
 			//getAttribute() will give us the value of the attribute we provide. could be any attribute
 			String attribute=driver.findElement(By.xpath("//input[@type='submit']")).getAttribute("class");
