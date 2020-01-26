@@ -140,7 +140,7 @@ package com.utils;
 		}
 
 		/**
-		 * This method will scroll until until specified element
+		 * This method will scroll until specified element
 		 * @param element
 		 */
 		public static void scrollIntoElement(WebElement element) {
