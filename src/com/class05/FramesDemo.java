@@ -20,8 +20,8 @@ public class FramesDemo extends CommonMethods{
 		Thread.sleep(2000);
 
 		/*
-		 * 1. opening the webpage, the of webdriver will be in the main window by default
-		 * 2. some some action in the main window. I'm getting some text from main window
+		 * 1. opening the webpage, the focus of webdriver will be in the main window by default
+		 * 2. perform some action in the main window. I'm getting some text from main window
 		 * 
 		 * Now I want to do some action inside the frame.
 		 * 
